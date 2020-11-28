@@ -63,13 +63,27 @@ background-color: #747d8c;
 .sign_up table{
   margin-left:30%;
 }
+.sign_up table th h1{
+  margin-right: 30%;
+
+}
+.sign_up hr{
+  width: 20%;
+border-width: 5px;
+border-color: grey;
+  border-style: none;
+    border-top-style: dotted;
+}
+.sign_up label{
+  font-size: 20px;
+  font-weight: bold;
+}
 .sign_up input{
 
   border: 0;
   transition: 0.25s;
   border-radius: 25px;
   background: none;
-
   margin: 10px;
   text-align: center;
   width: 250px;
@@ -77,11 +91,16 @@ background-color: #747d8c;
   outline: none;
 border: 1px solid #5555db;
 /*to be cercal border  */
-//  border-radius: 25px;
-  font-size: 20px;
+ border-radius: 25px;
+  font-size: 15px;
 /* delay in resize  */
   transition: 0.25s;
-  box-shadow: 2px solid;
+
+}
+.sign_up input[type="submit"]{
+
+  background-color: #4cd137;
+
 }
 .sign_up input:focus{
   box-shadow: 0.5px 0.5px 0.5px 0.5px black;
