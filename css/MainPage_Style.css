@@ -1,0 +1,46 @@
+body {
+ font-family: 'Amiri', serif;
+color: white;
+font-size: 20px;
+}
+body a{
+  text-decoration: none;
+    outline: none;
+    color: white;
+
+}
+.menu-bar{
+    background-color:  #747d8c;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.menu-bar ul{
+  background: black;
+  color: white;
+
+
+background-color: #747d8c;
+
+}
+.menu-bar li{
+  list-style-type: none;
+  margin: 0px;
+  padding:14px 16px;
+  float: right;
+  text-decoration: none;
+  /*margin-top: 10px;*/
+}
+.menu-bar li:hover{
+  background-color: black;
+}
+.menu-bar a{
+
+  color: white;
+}
+#Register{
+  background-color: red;
+  overflow: hidden;
+}
