@@ -6,26 +6,55 @@
   <meta name="author" content="Fawaz ALi,Amena">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>تسجيل طالب جديد </title>
-  	<link rel="stylesheet" type="text/css"  href="css/style.css">
+  	<link rel="stylesheet" type="text/css"  href="css\MainPage_Style.css">
 </head>
   <body >
 
 <div class="Main" >
 
-<div class="content">
-      <h1> تسجيل طالب جديد </h1>
-  <form class="singn_up" action="index.html" method="post">
+  <div>
+    <ul  class="menu-bar">
+      <li><a href="#">الرئيسية </a></li>
+      <li><a href="#">موسوعة الجامعة </a></li>
+      <li><a href="#"> بريد الجامعة </a> </li>
+      <li id="Register"><a href="add_student.html"> التسجيل</a> </li>
+      <li><a href="#"> اخر الاخبار </a> </li>
 
-   <input type="text" name="f_name"  placeholder= "الاسم"> <br>
-    <input type="text" name="L_name"  placeholder="الشهرة "><br>
-    <input type="text" name="Age"   placeholder="العمر "  ><br>
-    <input type="text" name="Address" placeholder="العنوان"><br>
-    <input type="text" name="Address" placeholder="الرقم الوطني"><br>
-    <input type="submit" name="submit" value="تسجيل"><br>
+    </ul>
+    <h1>
+  </div>
+  <hr>
 
+
+   <form class="sign_up" action="index.html" method="post">
+     <h1> تسجيل طالب جديد </h1><br><hr>
+     <table border="0">
+       <tr>
+         <td> <input type="text" name="f_name"  placeholder= "الاسم"></td>
+         <td> <label for=""> :  الاسم </label> </td>
+       </tr>
+       <tr>
+         <td><input type="text" name="L_name"  placeholder="الشهرة "></td>
+         <td> <label for="L_name">:  الشهرة  </label> </td>
+       </tr>
+       <tr>
+         <td> <input type="text" name="Age"   placeholder="العمر "  ></td>
+         <td> <label for="Age"> :  العمر  </label> </td>
+       </tr>
+       <tr>
+         <td> <input type="text" name="Address" placeholder="العنوان"></td>
+         <td> <label for="Address"> :  العنوان  </label> </td>
+       </tr>
+       <tr>
+         <td> <input type="text" name="National_ID" placeholder="الرقم الوطني"></td>
+         <td> <label for="National_ID"> :الرقم الوطني</label> </td>
+       </tr>
+       <tr>
+         <td colspan="2"><input type="submit" name="submit" value="تسجيل"></td>
+       </tr>
+   </table>
   </form>
-
-</div>
+   <hr>
 
 
 

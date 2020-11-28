@@ -1,6 +1,6 @@
 body {
  font-family: 'Amiri', serif;
-color: white;
+color: black;
 font-size: 20px;
 }
 body a{
@@ -36,11 +36,61 @@ background-color: #747d8c;
 .menu-bar li:hover{
   background-color: black;
 }
-.menu-bar a{
 
-  color: white;
-}
 #Register{
   background-color: red;
   overflow: hidden;
+}
+#Register:hover{
+    background-color: #2ecc71;
+}
+/*  layout the body controls*/
+.sign_up{
+
+  color: black;
+  margin-top: 30px;
+  margin-left: 30%;
+  width: 700px;
+  height: 500px;
+  border: 15px ;
+  border-color: red;
+  /*box-shadow: 4px 4px 4px 4px  black;*/
+  margin-top: 10%;
+  padding: 0px;
+  text-align: center;
+}
+
+.sign_up table{
+  margin-left:30%;
+}
+.sign_up input{
+
+  border: 0;
+  background: none;
+
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+  height: 40px;
+  outline: none;
+border: 1px solid #5555db;
+/*to be cercal border  */
+//  border-radius: 25px;
+  font-size: 20px;
+/* delay in resize  */
+  transition: 0.25s;
+  box-shadow: 2px solid;
+}
+.singn_up table tr td input[type="submit"]:hover{
+  border:3;
+  background: #4cd137;
+  text-align: center;
+  border: 2px solid #456531;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+.singn_up table tr td label{
+  font-style: normal;
+  font-size: 20px;
 }
