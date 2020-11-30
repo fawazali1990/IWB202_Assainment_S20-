@@ -44,6 +44,11 @@ background-color: #747d8c;
 #Register:hover{
     background-color: #2ecc71;
 }
+/* Design the logo section */
+.logo{
+  margin-right: 2px;
+  margin-left: 70%;
+}
 /*  layout the body controls*/
 .sign_up
 {
