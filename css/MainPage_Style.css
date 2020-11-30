@@ -9,10 +9,17 @@ body a{
     color: white;
 
 }
+.main{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color:white;
+}
 .menu-bar{
     background-color:  #747d8c;
     height: 50px;
     width: 100%;
+    margin-right: 1px;
     text-align: center;
 
 }
@@ -20,8 +27,6 @@ body a{
 .menu-bar ul{
   background: black;
   color: white;
-
-
 background-color: #747d8c;
 
 }
@@ -53,6 +58,7 @@ background-color: #747d8c;
   margin-left: 30%;
 }
 #logo-image-left{
+  margin-top: 20%;
   margin-right: 30px;
   margin-left: 0%;
 }
@@ -69,12 +75,14 @@ background-color: #747d8c;
   border-color: red;
   /*box-shadow: 4px 4px 4px 4px  black;*/
   margin-top: 10%;
+  margin-right: 50%;
+  margin-left: 40%;
   padding: 0px;
   text-align: center;
 }
 
 .sign_up table{
-  margin-left:30%;
+
 }
 .sign_up table th h1{
   margin-right: 30%;
