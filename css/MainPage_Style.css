@@ -46,9 +46,17 @@ background-color: #747d8c;
 }
 /* Design the logo section */
 .logo{
-  margin-right: 2px;
-  margin-left: 70%;
+  width: 100%;
 }
+#logo-image-right{
+  margin-right: 0px;
+  margin-left: 30%;
+}
+#logo-image-left{
+  margin-right: 30px;
+  margin-left: 0%;
+}
+
 /*  layout the body controls*/
 .sign_up
 {
