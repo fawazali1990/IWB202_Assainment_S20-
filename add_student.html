@@ -10,6 +10,9 @@
 </head>
   <body >
 
+<script type="text/javascript" src="script.js">
+
+</script>
 
 <div class="Main" >
 
@@ -46,12 +49,14 @@
 <div class="sign_up">
 
 
-   <form class="" action="index.html" method="post">
+   <form class="" action="index.html" method="post" onsubmit="return Check_If_Empty()">
+    <fieldset>
+
 
      <table border="0">
        <th colspan="2"><h1> تسجيل طالب جديد </h1> </th>
        <tr>
-         <td> <input type="text" name="f_name"  placeholder= "الاسم"></td>
+         <td> <input type="text" name="f_name" id="F_Name" placeholder= "الاسم"></td>
          <td> <label for=""> :  الاسم </label> </td>
        </tr>
        <tr>
@@ -75,6 +80,7 @@
        </tr>
    </table>
       <hr>
+      </fieldset>
   </form>
   </div>
 
